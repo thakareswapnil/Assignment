@@ -15,6 +15,8 @@ public class Assignment1_listbox {
 			driver.manage().window().maximize();
 			driver.get("https://www.redbus.in/bus-tickets");
 			
+			System.out.println("Welcome To automation testing");
+			
 			driver.findElement(By.id("txtSource")).sendKeys("pune");
 	       Thread.sleep(2000); // Wait for the list to populate
 
